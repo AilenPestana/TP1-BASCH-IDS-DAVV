@@ -35,7 +35,7 @@ do
 		4) #parecido al  3;;
 		5)	
 			if [ -f ./salida/FILENAME.txt ]; then
-				echo "Ingrese N° de PAdrón: "
+				echo "Ingrese N° de Padrón: "
 				read padron
 				grep $padron ./FILENAME.txt
 			else
