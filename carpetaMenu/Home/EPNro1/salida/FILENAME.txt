@@ -1,0 +1,6 @@
+122326 Juan Lopez jp@fi.uba.ar 8 
+566622 Manuel Martinez mm@fi.uba.ar 5  
+365284 Julieta Perez jp@fi.uba.ar 7
+213334 Martina Verdoy mv@fi.uba.ar 3
+113348 Joaquin Gutierrez jg@fi.uba.ar 6
+
