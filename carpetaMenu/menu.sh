@@ -1,11 +1,11 @@
 #!/bin/bash
 
-archivo=$1
+archivo=$1 #Guarda lo que escribimos al ejecutar el script
 
-export FILENAME="alumnos"
+export FILENAME="alumnos" #Variable de entorno utilizada para el FILENAME.txt
 
-opcion=0
-parametro=$1
+opcion=0 #Variable que nos permite guardar la opcion elegida en el menu
+parametro=$1 #Almacena el valor  ultilizado para el parametro optativo -d
 
 if [ "$parametro" = "-d" ];then #Si el usuario ejecuta el script con parametro -d, borramos el entorno, lo que mata el proceso en  2do plano 
 	cd ./Home/ 
@@ -48,7 +48,7 @@ else #si el usuario  ejecuta normal, se muestra el menu
 				echo 'fi'>> ./Home/EPNro1/consolidar.sh
 				echo 'done' >> ./Home/EPNro1/consolidar.sh
 
-				chmod +x ./Home/EPNro1/consolidar.sh 
+				chmod +x ./Home/EPNro1/consolidar.sh #Da permiso de ejecucion a consolidar.sh
 
 				echo "Entorno creado"
 				;;
