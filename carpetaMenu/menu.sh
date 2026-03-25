@@ -1,7 +1,5 @@
 #!/bin/bash
 
-archivo=$1 #Guarda lo que escribimos al ejecutar el script
-
 export FILENAME="alumnos" #Variable de entorno utilizada para el FILENAME.txt
 
 opcion=0 #Variable que nos permite guardar la opcion elegida en el menu
